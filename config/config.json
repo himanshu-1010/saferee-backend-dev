@@ -1,0 +1,22 @@
+{
+  "local": {
+    "config_environment": "local",
+    "frontEndAppUrl": "https://safelet.com",
+    "backEndAppUrl": "localhost:4000/api-v2023",
+    "developerEmail": "developers@safelet.com",
+    "mailerConstants": {
+      "from": "noreply@safelet.com",
+      "replyTo": "support@safelet.com"
+    }
+  },
+  "dev": {
+    "config_environment": "dev",
+    "frontEndAppUrl": "https://dev-safelet.herokuapp.com",
+    "backEndAppUrl": "https://dev-safelet.herokuapp.com/api-v2022",
+    "developerEmail": "developers@safelet.com",
+    "mailerConstants": {
+      "from": "noreply@safelet.com",
+      "replyTo": "support@safelet.com"
+    }
+  }
+}
